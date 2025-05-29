@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Char-Rent</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-phone d-flex align-items-center"><span>+62 1234 5678 99</span></i>
+        <i class="bi bi-clock d-flex align-items-center ms-4"><span> Senin-Sabtu: 11AM - 23PM</span></i>
+      </div>
+
+      <div class="languages d-none d-md-flex align-items-center">
+        <ul>
+          <li><a href="index.html">EN</a></li>
+          <li>ID</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-cente">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Char-Rent</a></h1>
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
+          <li><a class="nav-link scrollto" href="#about">Rincian</a></li>
+          <li><a class="nav-link scrollto" href="#menu">Pelayanan</a></li>
+          <li><a class="nav-link scrollto" href="#events">Karakter</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
+      </nav><!-- .navbar -->
+      
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1>Selamat Datang di <span>Char-Rent</span></h1>
+          <h2>Rasakan mengobrol dengan karakter favoritmu!</h2>
+
+          <div class="btns">
+            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Pelayanan</a>
+            <a href="https://forms.gle/r7pckYscFDb4FH8K9" class="btn-book animated fadeInUp scrollto" target="_blank">Pemesanan</a>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
+          <a href="#" class="play-btn" onclick="toggleAudio(event)"></a>
+      </div>
+       
+          <audio id="background-audio" loop>
+            <source src="audio/bgm.mp3" type="audio/mpeg">
+        </audio>
+        
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+            <div class="about-img">
+              <img src="assets/img/chat-removebg-preview.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>Tu es ma joie de vivre, Mon Chéri.</h3>
+            <p>
+              Selamat datang di Char-Rent, tempat dimana kamu bisa mengobrol dengan karakter
+              Love and Deepspace favoritmu di dunia nyata! Kami memberikan pelayanan terbaik 
+              agar kamu bisa menikmati pengalaman dilayani bak seorang putri oleh karakter 
+              Love and Deepspace. Kamu bisa mendapatkan:
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Mengobrol bersama dan saling berbagi cerita dengan karakter pilihanmu.</li>
+              <li><i class="bi bi-check-circle"></i> Mengobrol melalui telepon dan dapat mendengar suara mereka.</li>
+              <li><i class="bi bi-check-circle"></i> Kamu bisa mendapatkan perlakuan love language seperti Quality Time dan
+                Words of Affirmation.</li>
+            </ul>
+            <p>
+              Kami sangat menghargai dan memprioritaskan kebahagiaan dan kenyamanan klien kami. Semua privasi kami jamin aman.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Pelayanan Kami</h2>
+          <p>Pilih pelayanan yang kamu inginkan!</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-chat">Chat</li>
+              <li data-filter=".filter-call">Call</li>
+              <li data-filter=".filter-reminder">Reminder</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-6 menu-item filter-chat">
+            <div class="menu-content">
+              <a href="#">12 jam</a><span>IDR 20.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Aplikasi: iMessage, WhatsApp
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-call">
+            <div class="menu-content">
+              <a href="#">30 menit</a><span>IDR 25.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Mengobrol apapun dengan karakter pilihanmu.
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-chat">
+            <div class="menu-content">
+              <a href="#">1 day</a><span>IDR 30.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Aplikasi: iMessage, WhatsApp
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-reminder">
+            <div class="menu-content">
+              <a href="#">Reminder: Eat</a><span>IDR 15.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Dapatkan pengingat makan dari karakter pilihanmu.
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-reminder">
+            <div class="menu-content">
+              <a href="#">Reminder: Wake Up</a><span>IDR 15.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Dapatkan pengingat bangun tidur dari karakter pilihanmu.
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-chat">
+            <div class="menu-content">
+              <a href="#">3 days</a><span>IDR 70.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Aplikasi: iMessage, WhatsApp
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-call">
+            <div class="menu-content">
+              <a href="#">1 hour</a><span>IDR 35.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Mengobrol apapun dengan karakter pilihanmu.
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-call">
+            <div class="menu-content">
+              <a href="#">2 hours</a><span>IDR 45.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Mengobrol apapun dengan karakter pilihanmu.
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-chat">
+            <div class="menu-content">
+              <a href="#">1 week</a><span>IDR 145.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Aplikasi: iMessage, WhatsApp
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-chat">
+            <div class="menu-content">
+              <a href="#">1 month</a><span>IDR 510.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Aplikasi: iMessage, WhatsApp
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-call">
+            <div class="menu-content">
+              <a href="#">3 hours</a><span>IDR 55.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Mengobrol apapun dengan karakter pilihanmu.
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-reminder">
+            <div class="menu-content">
+              <a href="#">Reminder: Study</a><span>IDR 30.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Dapatkan pengingat belajar dari karakter pilihanmu.
+              Bonus: Kamu juga dapat merasakan study-date bersama karakter pilihanmu!
+            </div>
+          </div>
+
+      </div>
+    </section><!-- End Menu Section -->
+
+      </div>
+    </section><!-- End Menu Section -->
+
+    <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Karakter</h2>
+          <p>Pilih karakter pilihanmu!</p>
+        </div>
+
+        <div class="events-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/abah.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Sylus</h3>
+                  <div class="price">
+                    <p><span>#CHR01</span></p>
+                  </div>
+                  <p>
+                    Sylus merupakan orang yang pendiam, tetapi cintanya sangat dalam.
+                    Dia tipe orang yang menunjukkan rasa cintanya melalui tindakan, selalu
+                    ada saat kamu membutuhkannya. Kamu akan merasakan cintanya dengan 
+                    cara dia mengingat hal-hal kecil dan melindungimu dengan caranya‒memastikan
+                    kamu aman dan diperhatikan. Sylus juga memiliki love language Act of Service,
+                    dimana kamu bisa mendapatkan perlakuan bak seorang putri darinya.
+
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Kamu akan diperlakukan seperti putri.</li>
+                    <li><i class="bi bi-check-circle"></i> Dia akan mencoba menjadi dewasa dan protektif karena
+                    dia tidak ingin kamu terluka.</li>
+                    <li><i class="bi bi-check-circle"></i> Caranya dia berbicara kepadamu seperti berbicara kepada 
+                    anak kecil, karena dia melihatmu seperti seorang anak perempuan kecil.</li>
+                  </ul>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/xavier.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Xavier</h3>
+                  <div class="price">
+                    <p><span>#CHR02</span></p>
+                  </div>
+                  <p>
+                    Xavier is thoughtful, deeply intelligent, and observant. He might not be the first to show his feelings openly, 
+                    but when he loves, it’s with a depth and sincerity that is hard to match. Xavier is the kind of person who quietly 
+                    listens to everything you say and remembers it, from your favorite coffee order to your dreams and fears. He’s logical, 
+                    but when it comes to you, he always finds a way to show he cares in meaningful ways.
+                  </p>
+                  <p>
+                    Xavier’s love would be felt in the way he supports you through challenges, thinking two steps ahead to make sure you’re 
+                    taken care of. He’d offer advice or quietly handle small things just to make your life easier, like fixing something before
+                    you even realize it’s broken or making sure you have everything you need before a big day. With Xavier, love isn’t loud, 
+                    but it’s present in every thoughtful gesture, every reassuring glance, and every moment of quiet strength. 
+                    His love language is acts of service and quality time, making you feel safe and appreciated, 
+                    like you’ve got a partner who’ll always have your back.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/zayne.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Zayne</h3>
+                  <div class="price">
+                    <p><span>#CHR03</span></p>
+                  </div>
+                  <p>
+                    Zayne is all energy and passion—he’d make you feel alive. With him, love is spontaneous and exciting, filled with 
+                    adventurous surprises and warm hugs. His love would come through in his closeness and attention, always making you 
+                    feel like his favorite person. His love language? Physical touch and quality time, with plenty of laughter.
+                  </p>
+                  <p>
+                    You’d feel Zayne’s love in his closeness, the way he’d pull you into a hug at the most unexpected times, or the way 
+                    he’d throw his arm around you in a crowd to keep you near. He’s the kind of person who loves to laugh with you, share 
+                    every little joy, and make memories out of every interaction. And if he sees you’re down, he’ll do anything to bring a 
+                    smile back to your face—whether it’s a silly joke, a surprise date, or just sitting with you until you feel okay again. 
+                    His love language is physical touch and quality time, and with Zayne, every moment feels like a celebration of love, life, 
+                    and all the little things in between.
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/rafayel2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Rafayel</h3>
+                  <div class="price">
+                    <p><span>#CHR04</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Events Section -->
+
+    <!-- ======= Book A Table Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Reservation</h2>
+          <p>Order Form</p>
+        </div>
+        <p>
+          Payment:
+          <br> Gopay: 08XXXXXXXXXX
+          <br> Mandiri: 12XXXXXXX
+        </p>
+
+        <form action="forms/handle-booking.php" method="post" enctype="multipart/form-data" class="php-email-form">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" required>
+                <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+                <select name="char" class="form-control" id="char" required>
+                    <option value="" disabled selected>Choose your character</option>
+                    <option value="Sylus">#CHR01 Sylus</option>
+                    <option value="Xavier">#CHR02 Xavier</option>
+                    <option value="Zayne">#CHR03 Zayne</option>
+                    <option value="Rafayel">#CHR04 Rafayel</option>
+                </select>
+                <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+                <select name="serve" class="form-control" id="serve" required>
+                    <option value="" disabled selected>Choose service that you want</option>
+                    <option value="chat">Chat</option>
+                    <option value="call">Call</option>
+                    <option value="reminder">Reminder</option>
+                </select>
+                <div class="validate"></div>
+            </div>
+            
+            <!-- Input untuk Durasi Chat -->
+            <div class="col-lg-4 col-md-6 form-group mt-3" id="chatDuration" style="display: none;">
+                <select name="chat" class="form-control" id="chat" required>
+                    <option value="" disabled selected>Chat Service</option>
+                    <option value="12hours">12 hours</option>
+                    <option value="1day">1 day</option>
+                    <option value="3days">3 days</option>
+                    <option value="1week">1 week</option>
+                    <option value="1month">1 month</option>
+                </select>
+                <div class="validate"></div>
+            </div>
+        
+            <!-- Input untuk Durasi Call -->
+            <div class="col-lg-4 col-md-6 form-group mt-3" id="callDuration" style="display: none;">
+                <select name="call" class="form-control" id="call" required>
+                    <option value="" disabled selected>Call Service</option>
+                    <option value="30min">30 minutes</option>
+                    <option value="1hr">1 hour</option>
+                    <option value="2hr">2 hours</option>
+                    <option value="3hr">3 hours</option>
+                </select>
+                <div class="validate"></div>
+            </div>
+        
+            <!-- Input untuk Reminder -->
+            <div class="col-lg-4 col-md-6 form-group mt-3" id="reminderDuration" style="display: none;">
+                <select name="reminder" class="form-control" id="reminder" required>
+                    <option value="" disabled selected>Reminder</option>
+                    <option value="Eat">Eat</option>
+                    <option value="WakeUp">Wake Up</option>
+                    <option value="Study">Study</option>
+                </select>
+                <div class="validate"></div>
+            </div>
+        
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <div class="custom-file-upload">
+                  <input type="file" class="form-control-file" name="pay" id="pay" required>
+                  <label for="pay" class="file-placeholder">Upload your proof here</label>
+              </div>
+              <div class="validate"></div>
+          </div>
+        </div>
+
+        <script>
+          document.getElementById('pay').addEventListener('change', function () {
+              const fileInput = this;
+              const fileName = fileInput.files[0] ? fileInput.files[0].name : "Upload your proof here";
+              const label = document.querySelector('label[for="pay"]');
+              label.textContent = fileName;
+          });
+      </script>
+        
+        <script>
+          document.getElementById('serve').addEventListener('change', function() {
+              // Sembunyikan semua input durasi dan nonaktifkan atribut required
+              document.getElementById('chatDuration').style.display = 'none';
+              document.getElementById('callDuration').style.display = 'none';
+              document.getElementById('reminderDuration').style.display = 'none';
+              document.getElementById('chat').removeAttribute('required');
+              document.getElementById('call').removeAttribute('required');
+              document.getElementById('reminder').removeAttribute('required');
+          
+              // Tampilkan input durasi yang sesuai dengan pilihan dan tambahkan atribut required
+              if (this.value === 'chat') {
+                  document.getElementById('chatDuration').style.display = 'block';
+                  document.getElementById('chat').setAttribute('required', 'required');
+              } else if (this.value === 'call') {
+                  document.getElementById('callDuration').style.display = 'block';
+                  document.getElementById('call').setAttribute('required', 'required');
+              } else if (this.value === 'reminder') {
+                  document.getElementById('reminderDuration').style.display = 'block';
+                  document.getElementById('reminder').setAttribute('required', 'required');
+              }
+          });
+        </script>
+        <script>
+          document.querySelector('.php-email-form').addEventListener('submit', async function (e) {
+              e.preventDefault();
+
+              // Select elements only once to improve performance
+              const loadingMessage = document.querySelector('.loading');
+              const successMessage = document.querySelector('.sent-message');
+              const errorMessage = document.querySelector('.error-message');
+
+              // Show the loading message and hide others
+              loadingMessage.style.display = 'block';
+              successMessage.style.display = 'none';
+              errorMessage.style.display = 'none';
+
+              // Collect form data
+              const formData = new FormData(this);
+
+              try {
+                  // Send POST request to the form action URL
+                  const response = await fetch(this.action, {
+                      method: 'POST',
+                      body: formData,
+                  });
+
+                  // Handle response JSON
+                  const result = await response.json();
+
+                  // Hide the loading message
+                  loadingMessage.style.display = 'none';
+
+                  if (response.ok && result.status === 'success') {
+                      // Show success message and reset the form
+                      successMessage.innerText = result.message || "Form submitted successfully!";
+                      successMessage.style.display = 'block';
+                      errorMessage.style.display = 'none';
+                      this.reset(); // Clear the form fields
+
+                      // Hide the success message after 3 seconds
+                      setTimeout(() => {
+                          successMessage.style.display = 'none';
+                      }, 3000);
+                  } else {
+                      // Show the error message if there's a problem
+                      throw new Error(result.message || "An error occurred. Please try again.");
+                  }
+              } catch (error) {
+                console.log(false);
+                
+                  // Hide loading and show the error message
+                  loadingMessage.style.display = 'none';
+                  errorMessage.innerText = error.message || "There was an error processing your request. Please try again.";
+                  errorMessage.style.display = 'block';
+                  successMessage.style.display = 'none';
+              }
+          });
+        </script>                                  
+              <div class="mb-3">
+                <div class="loading" style="display: none;">Loading...</div>
+                <div class="sent-message" style="display: none; color: white;">Your booking request was sent successfully.</div>
+                <div class="error-message" style="display: none; color: white;">There was an error sending your booking request. Please try again later.</div>
+              </div>
+              <div class="text-center"><button type="submit">Order</button></div>
+          </div>
+      </form>
+      
+      </div>
+    </section>
+
+    <!-- ======= Chefs Section ======= -->
+    <section id="chefs" class="chefs">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Owner</h2>
+          <p>Tentang Kami</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+              <img src="assets/img/chefs/chika.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Cantika Ismayanie</h4>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="200">
+              <img src="assets/img/download20241004084350.png" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Keisha Naiza Djalle</h4>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="300">
+              <img src="assets/img/chefs/rei.png" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Rei Sashenka Kifli</h4>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Chefs Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Kontak</h2>
+          <p>Kontak Kami</p>
+        </div>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+
+              <div class="open-hours">
+                <i class="bi bi-clock"></i>
+                <h4>Open Hours:</h4>
+                <p>
+                  Monday-Saturday:<br>
+                  11:00 AM - 2300 PM
+                </p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <div class="row">
+              <p>
+                Jika memiliki masukan dan saran, kamu bisa mengisi 
+                formulir di bawah ini. Kami sangat mengapresiasi dan menghargai
+                semua masukan dan saran agar layanan kami bisa lebih baik lagi.
+              </p>
+              <!-- <div class="col-md-6 form-group">
+                <div class="btns">
+                    <a href="https://forms.gle/r7pckYscFDb4FH8K9" class="btn-feedback animated fadeInUp scrollto" target="_blank">Masukan</a>
+                </div> -->
+            </div>
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Char-Rent</h3>
+              <!-- <p>
+                A108 Adam Street <br>
+                NY 535022, USA<br><br> -->
+                <strong>Telepon:</strong> +62 1234 5678 99<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Restaurantly</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+         All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div> -->
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
